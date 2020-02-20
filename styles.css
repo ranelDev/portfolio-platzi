@@ -28,3 +28,20 @@ body  {
     text-decoration: none;
     color: white;
 }
+h1{
+    color:white;
+    font-size: 47px;
+}
+h1 strong{
+    color:blue
+}
+.section1{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.section1 img{
+    width: 50%;
+    height: 450px;
+}
