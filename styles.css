@@ -45,3 +45,32 @@ h1 strong{
     width: 50%;
     height: 450px;
 }
+.section2 {
+    display: flex;
+    
+}
+.section2 img{
+    width: 50%;
+    height: 450px;
+}
+.section2__article {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    justify-items: left;
+}
+.section3 img{
+    width: 50%;
+    height: 450px;
+}
+.section3 {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+.section3__article {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    justify-items: left;
+}
