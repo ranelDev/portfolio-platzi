@@ -12,7 +12,7 @@ h6{
     font-weight: normal;
 }
 h2 {
-    color: #026fff;
+    color: #056fff;
     margin: 50px 20px;
 }
 h3 {
@@ -57,7 +57,7 @@ h1{
     font-size: 47px;
 }
 h1 strong{
-    color:#026fff;
+    color:##056fff;
 }
 .section1{
     background-color: black;
@@ -100,7 +100,7 @@ h1 strong{
 }
 .event-container {
     display: flex;
-    
+
 }
 .event {
     margin: 10px;
@@ -141,4 +141,46 @@ h1 strong{
     text-decoration: none;
     color: #056fff;
     border-radius:5px ;
+}
+
+.contact {
+    background-color: #056fff;
+    color: white;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.contact-title{
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding: 0px;
+    text-align: left;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.social-link{
+    margin: 50px 30px;
+}
+.social-link img{
+    width: 50px;
+    height: 50px;
+}
+.form-email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-email button{
+    margin: 15px;
+}
+.form-email input {
+    border-radius: 5px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0,1);
 }
