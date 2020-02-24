@@ -203,3 +203,24 @@ h1 strong{
     padding: 10px 15px;
     background-color: rgba(255, 255, 255, 0,1);
 }
+.footer {
+    color: white;
+    background-color: #1f2730;
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    justify-content: space-between;
+}
+.footer__text{
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+}
+.footer__text--img{
+    width: 70px;
+    height: 30px;
+}
+.footer__text--a{
+    text-decoration: none;
+    color:#056fff;
+}
