@@ -1,7 +1,11 @@
 body  {
     margin: 0px;
     background: honeydew;
-
+    font-family: 'Fjalla One', sans-serif ;
+    
+}
+p{
+    font-weight: normal;
 }
 h1,
 h2,
@@ -9,19 +13,24 @@ h3,
 h4,
 h5,
 h6{
-    font-weight: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.title{
+    font-size: 54px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 h2 {
     color: #056fff;
     margin: 50px 20px;
 }
 h3 {
-    font-size: 24px;
+    font-size: 30px;
     
 }
 h6{
     color: rgb(110, 110, 110);
-    font-size: 12px;
+    font-size: 15px;
     font-weight: bold;
     margin-top: 5px;
     margin-bottom: 15px;
@@ -57,7 +66,7 @@ h1{
     font-size: 47px;
 }
 h1 strong{
-    color:##056fff;
+    color: #056fff;
 }
 .section1{
     background-color: black;
@@ -88,8 +97,12 @@ h1 strong{
     display: flex;
     flex-direction: column;
     justify-content: left;
-    
-   
+}
+.section2__article--text{
+    margin-top: 50px;
+}
+.section2__article--text2{
+    margin-bottom: 50px;
 }
 .section3 img{
     width: 640px;
