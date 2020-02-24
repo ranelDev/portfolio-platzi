@@ -207,6 +207,7 @@ h1 strong{
 }
 .footer {
     color: white;
+    padding: 20px;
     background-color: #1f2730;
     display: flex;
     align-items: center;
